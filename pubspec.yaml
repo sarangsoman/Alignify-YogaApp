@@ -1,0 +1,126 @@
+name: alignify
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+# environment:
+#     sdk: ">=3.0.5 <4.0.0"
+
+environment:
+  sdk: ">=2.19.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^4.6.0
+  firebase_storage: ^11.2.4
+  firebase_auth: ^4.5.0
+  firebase_core_platform_interface: ^4.7.0
+  firebase_core: ^2.11.0
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+  fl_chart: ^0.36.0
+  carousel_slider: ^4.0.0
+  font_awesome_flutter: ^10.1.0
+  google_sign_in: ^5.4.0
+  curved_navigation_bar: ^1.0.3
+  camera: ^0.8.1+7
+  image: ^3.3.0
+  image_picker: ^0.8.7+3
+  flutter_gif: ^0.0.4
+  sensors_plus: ^3.0.2
+  fluttertoast: ^8.2.2
+  flutter_tts: ^3.7.0
+  lottie: ^2.3.2
+  path_provider: ^2.0.14
+  tflite_flutter: ^0.9.1
+  tflite_flutter_helper:
+    git:
+      url: https://github.com/filofan1/tflite_flutter_helper.git
+      ref: 783f15e5a87126159147d8ea30b98eea9207ac70
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  mockito: ^5.0.0
+  flutter_lints: ^2.0.1
+  flutter_native_splash: ^2.2.16
+  flutter_launcher_icons: "^0.11.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/logo.png"
+  min_sdk_android: 21
+  size: 128
+  web:
+    generate: true
+    image_path: "assets/icon/logo.png"
+    background_color: "#363636"
+    theme_color: "#363636"
+  windows:
+    generate: true
+    image_path: "assets/icon/logo.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+    - assets/models/
+    - assets/images/image2.png
+    - assets/images/image3.jpg
+    - assets/images/image4.jpg
+    - assets/images/emely.jpg
+    - assets/images/alexsandra.jpg
+    - assets/images/profile_background.jpg
+    - assets/images/squat.jpg
+    - assets/images/tadasana.jpg
+    - assets/images/parvatasana.jpg
+    - assets/images/vajrasana.jpg
+    - assets/images/pull_up.png
+    - assets/images/push_up.png
+    - assets/images/push_up.gif
+    - assets/images/pull_up.gif
+    - assets/images/squat.gif
+    - assets/images/tadasana.gif
+    - assets/images/vajrasana.gif
+    - assets/images/tadasana_steps.jpg
+    - assets/images/man_fitness_exercise_recommender.png
+    - assets/images/shadow.png
+    - assets/images/image8.png
+    - assets/images/image7.png
+    - assets/images/image9.png
+    - assets/images/image10.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

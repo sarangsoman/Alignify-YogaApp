@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "324855523844",
+    "project_id": "alignify-83a78",
+    "storage_bucket": "alignify-83a78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324855523844:android:afe8d6c30688aac67ba351",
+        "android_client_info": {
+          "package_name": "com.example.alignify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiWbMEki-l8MSlWJX1p9lbVfgPibwT6Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324855523844:android:cebc336c03eb44cb7ba351",
+        "android_client_info": {
+          "package_name": "com.example.coach_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiWbMEki-l8MSlWJX1p9lbVfgPibwT6Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
